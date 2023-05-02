@@ -6,6 +6,10 @@
     color: #454545;
 }
 
+.hidden {
+    visibility: hidden;
+}
+
 .landing {
     background-color: #FFE6C7;
 }
@@ -169,6 +173,7 @@ input:focus {
 .movie {
     width: 25%;
     margin: 24px auto;
+    padding: 24px;
 }
 
 .movies__list {
