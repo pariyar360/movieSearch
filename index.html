@@ -7,6 +7,7 @@
     <title>Movie Search</title>
     <script src="https://kit.fontawesome.com/4d4d586488.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styles.css">
+    <script src="./index.js" defer></script>
 </head>
 <body>
     <section class="landing">
@@ -28,8 +29,8 @@
                         FIND MOVIE INFO WITH <span class="orange">MOVIE SEARCH</span>
                     </h2>
                     <div class="input__wrapper">
-                        <input type="text" placeholder="Start Searching for Movies">
-                        <button class="input__btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        <input type="text" id="query" placeholder="Start Searching for Movies">
+                        <button class="input__btn" onclick="sendQuery()"><i class="fa-solid fa-magnifying-glass"></i></button>
                     </div>               
                 </div>
                 <figure class="header__image--wrapper">
