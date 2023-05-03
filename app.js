@@ -14,7 +14,7 @@ async function querySubmit() {
 
 async function renderMovies(query) {
     hidden.classList.remove("hidden")
-    const movies = await fetch(`http://www.omdbapi.com/?i=tt3896198&apikey=e792d444&s=${query}`)
+    const movies = await fetch(`https://www.omdbapi.com/?i=tt3896198&apikey=e792d444&s=${query}`)
     const queryData = await movies.json()
     const moviesData = queryData["Search"]
     if (!moviesData) {
