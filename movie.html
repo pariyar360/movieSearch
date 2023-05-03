@@ -14,32 +14,34 @@
   </head>
   <body>
     <div class="movie__header landing">
-      <nav class="navbar">
-        <a href="./index.html"
-          ><figure>
-            <img class="logo" src="./assets/movie_logo.svg" /></figure
-        ></a>
-        <div class="nav__list">
-          <a href="./index.html" class="nav__list--link">Home</a>
-          <a href="#" class="nav__list--link">Find your movie</a>
-          <a href="#" class="nav__list--link cta">Contact</a>
-        </div>
-      </nav>
-      <header class="movie__header--info">
-        <div class="header__description">
-          <h1 class="header__description--title">Browse all movies</h1>
-          <div class="input__wrapper">
-            <input
-              type="text"
-              id="query"
-              placeholder="Start Searching for Movies"
-            />
-            <button class="input__btn" onclick="querySubmit()">
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </button>
+      <div class="row">
+        <nav class="navbar">
+          <a href="./index.html"
+            ><figure>
+              <img class="logo" src="./assets/movie_logo.svg" /></figure
+          ></a>
+          <div class="nav__list">
+            <a href="./index.html" class="nav__list--link">Home</a>
+            <a href="#" class="nav__list--link">Find your movie</a>
+            <a href="#" class="nav__list--link cta">Contact</a>
           </div>
-        </div>
-      </header>
+        </nav>
+        <header class="movie__header--info">
+          <div class="header__description">
+            <h1 class="header__description--title">Browse all movies</h1>
+            <div class="input__wrapper">
+              <input
+                type="text"
+                id="query"
+                placeholder="Start Searching for Movies"
+              />
+              <button class="input__btn" onclick="querySubmit()">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+          </div>
+        </header>
+      </div>
     </div>
 
     <section class="movies row">
